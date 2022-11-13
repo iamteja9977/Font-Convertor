@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    margin-top: 20px;
+  }
+body{
+    background-image: url("bg-change.webp");
+}
+  .container{
+    border:2px solid black;
+    border-radius: 25px;
+    background: hsla(154, 100%, 76%, 1);
+
+background: linear-gradient(90deg, hsla(154, 100%, 76%, 1) 0%, hsla(234, 100%, 83%, 1) 50%, hsla(288, 100%, 81%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(154, 100%, 76%, 1) 0%, hsla(234, 100%, 83%, 1) 50%, hsla(288, 100%, 81%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(154, 100%, 76%, 1) 0%, hsla(234, 100%, 83%, 1) 50%, hsla(288, 100%, 81%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#84FFC9", endColorstr="#AAB2FF", GradientType=1 );
+    /* padding-top:5px; */
+    margin:auto;
+    width:50%;
+
+    /* align-items: center; */
+  }
+  
+  h1{
+    color:#F75971;
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F7BA2C", endColorstr="#EA5459", GradientType=1 );
+    text-align: center;
+    font-family: "Sofia", sans-serif;
+
+
+    /* font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    /* border:1.5px solid #000; */
+    border-radius: 20px;
+    background-color:white;
+    width:auto;
+    margin: 15px 20px 0px 20px;
+  }
+ .form{
+    text-align: center;
+    align-items: center;
+  }
+  p{
+    text-align: left;
+    margin-left: 20px;
+   font-family: "Audiowide", sans-serif;
+  }
+  
+  textarea{
+    padding: 10px;
+    width:50%;
+    height: 80px;
+  }
+  #newtext{
+    width:50%;
+    height: 80px;
+  }
+  input{
+    background-color:#F75971;    
+    color:white;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+  }
+  input:hover{
+    background-color:white;  
+    color:black;
+    /* border-radius: 10px; */
+  }
+  /* footer{
+    background-color:black;
+    color:red;
+    margin-top:20px;
+    
+    text-align: center;
+  } */
+  footer{ 
+    text-align:center;
+    color:white;
+    right: 43%; 
+    bottom: 5px;
+}
+
+@media (max-width:600) {
+   body{
+        /* text-align: center; */
+        align-items: center;
+        margin: 5px 0;
+        width:500px;
+        padding:5px;
+   }
+    textarea{
+        width:auto;
+    }
+}
